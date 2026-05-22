@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>글꾸 메이커</title>
+<title>글꾸미기 에디터</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&display=swap');
@@ -127,7 +127,7 @@ textarea.out{width:100%;min-height:80px;font-family:ui-monospace,Menlo,Consolas,
 <body>
 
 <div class="topbar">
-  <h1><svg class="ic" viewBox="0 0 24 24"><path d="M3 21l3-1 11-11-2-2L4 18l-1 3z"/><path d="M14.5 5.5l4 4"/></svg> 글꾸 메이커</h1>
+  <h1><svg class="ic" viewBox="0 0 24 24"><path d="M3 21l3-1 11-11-2-2L4 18l-1 3z"/><path d="M14.5 5.5l4 4"/></svg> 글꾸미기 에디터</h1>
   <button onclick="undo()" id="undo-btn" class="mini" disabled><svg class="ic" viewBox="0 0 24 24"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-1"/></svg> 실행취소</button>
   <button onclick="redo()" id="redo-btn" class="mini" disabled><svg class="ic" viewBox="0 0 24 24"><path d="M15 14l5-5-5-5"/><path d="M20 9H9a5 5 0 0 0 0 10h1"/></svg> 다시실행</button>
   <span class="save-status" id="save-status">새 창마다 초기화됩니다 · 보관하려면 "작업 저장"</span>
